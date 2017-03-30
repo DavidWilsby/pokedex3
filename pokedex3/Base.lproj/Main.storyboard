@@ -161,7 +161,7 @@
                                             <action selector="backBtnPressed:" destination="JX6-ly-TGD" eventType="touchUpInside" id="8pP-bP-nrR"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ivysaur" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yxt-Ev-49S">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yxt-Ev-49S">
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="h6W-ED-h6l"/>
                                             <constraint firstAttribute="height" constant="28" id="nDZ-DM-ttz"/>
@@ -184,16 +184,6 @@
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="72l-zk-rWA">
                                         <subviews>
-                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="g35-tj-2JR">
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="28" id="iWu-vx-kIn"/>
-                                                </constraints>
-                                                <segments>
-                                                    <segment title="Bio"/>
-                                                    <segment title="Moves"/>
-                                                </segments>
-                                                <color key="tintColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            </segmentedControl>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JOK-tx-bPb">
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eL1-Pj-uMx">
@@ -211,9 +201,7 @@
                                             </stackView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="g35-tj-2JR" secondAttribute="trailing" id="89W-fz-MnM"/>
                                             <constraint firstAttribute="trailing" secondItem="JOK-tx-bPb" secondAttribute="trailing" id="eqw-6A-5Lj"/>
-                                            <constraint firstItem="g35-tj-2JR" firstAttribute="leading" secondItem="72l-zk-rWA" secondAttribute="leading" id="hYN-6W-PZW"/>
                                             <constraint firstItem="JOK-tx-bPb" firstAttribute="leading" secondItem="72l-zk-rWA" secondAttribute="leading" id="pea-e1-UmD"/>
                                         </constraints>
                                     </stackView>
