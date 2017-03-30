@@ -8,5 +8,8 @@ target 'pokedex3' do
   use_frameworks!
 
   pod 'Alamofire', '~> 4.4'
+  pod 'Firebase'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
   
 end

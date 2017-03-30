@@ -59,7 +59,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             
             let csv = try CSV(contentsOfURL: path)
             let rows = csv.rows
-            print(rows)
             
             for row in rows {
                 
@@ -95,8 +94,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                 cell.configureCell(poke)
                 
             }
-            
-            cell.configureCell(poke)
             
             return cell
             
